@@ -1,0 +1,69 @@
+title:            SceneJS
+tagline:          On the other side of the screen, it all looks so easy
+description:      An extensible WebGL-based engine for high-detail 3D visualisation
+#Comment out url when working locally to resolve base urls correctly
+#url:              http://your-site.com
+
+# Owner/author information
+owner:
+  name:           Lindsay Kay
+  avatar:         bio-photo.jpg
+  bio:            "WebGL developer: SceneJS author, BioDigital Human platform architect"
+  email:          lindsay.kay@xeolabs.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter: xeolabs
+  github: xeolabs
+  linkedin: lindsaystanleykay
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus: https://plus.google.com/u/0/110983138227486752827/posts
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Articles
+    url: /articles
+  - title: Examples
+    url: http://scenejs.org/examples.html?page=firstExample
+    external: true
+  - title: Downloads
+    url: https://github.com/xeolabs/scenejs#downloads
+    external: true
+  - title: Issues
+    external: true
+    url: https://github.com/xeolabs/scenejs/issues
+    external: true
+  - title: License
+    url: https://github.com/xeolabs/scenejs/tree/V3.1/licenses
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Berlin/Germany
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
