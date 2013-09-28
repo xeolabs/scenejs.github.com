@@ -1,6 +1,6 @@
 ---
 layout: home
-description: "SceneJs home."
+description: "SceneJS home."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: grid.jpg

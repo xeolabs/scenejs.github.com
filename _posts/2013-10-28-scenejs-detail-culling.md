@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SceneJS Detail Culling
+title: Detail Culling
 description: "Plugins for multithreaded frustum detail culling"
 tagline: "Plugins for multithreaded frustum detail culling"
 modified: 2013-05-31

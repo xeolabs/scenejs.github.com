@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>SceneJS Examples</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="/assets/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://xeolabs.github.io/examplejs/api/v0/example.js"></script>
+
+</head>
+<body>
+
+<style>
+    html, body {
+        height: 100%;
+    }
+    body {
+        margin: 0px;
+        overflow: hidden;
+    }
+</style>
+
+
+<script>
+
+    // The ExampleJS tool will insert an iframe that will fill the window
+
+    jQuery(document).ready(
+            function ($) {
+
+                // Load our examples index
+                $.getJSON("/assets/json/index.json",
+                        function (index) {
+
+                            // Create an examples browser
+                            var examplejs = new ExampleJS({
+
+                                title:"SceneJS",
+
+                                logo:"http://xeolabs.github.io/scenejs/images/scenejs.png",
+
+                                // Stick this under the logo:
+                                caption:"Examples",
+
+                                // Provide our JSON examples index
+                                index:index,
+
+                                // Our directory of example pages
+                                pageBase:"http://xeolabs.github.io/scenejs/examples/ex/",
+
+                                // Initially hide code
+                                showCode:false
+                            });
+
+                            // Go to SceneJS.org when the home link (ie. logo) is clicked
+                            examplejs.once("home",
+                                    function () {
+                                        window.location = "index.html";
+                                    });
+                        });
+            });
+
+</script>
+</body>
+</html>

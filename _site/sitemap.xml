@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com</loc>
+        <loc></loc>
     </url>
     
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/scenejs-quick-start</loc>
+        <loc>/articles/scenejs-quick-start</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/scenejs-physics</loc>
+        <loc>/articles/scenejs-physics</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/scenejs-detail-culling</loc>
+        <loc>/articles/scenejs-node-types</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/creating-a-scene-and-adding-nodes</loc>
+        <loc>/articles/scenejs-detail-culling</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/biodigital-human</loc>
+        <loc>/articles/creating-a-scene-and-adding-nodes</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/code-highlighting-post</loc>
+        <loc>/articles/biodigital-human</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/readability-feature-post</loc>
+        <loc>/articles/code-highlighting-post</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/sample-post-images</loc>
+        <loc>/articles/readability-feature-post</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/readability-post</loc>
+        <loc>/articles/sample-post-images</loc>
     </url>
     
     <url>
-        <loc>http://xeolabs.github.io/scenejs.github.com/articles/sample-post</loc>
+        <loc>/articles/readability-post</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/sample-post</loc>
     </url>
     
 </urlset>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SceneJS Quick Start
+title: Quick Start
 description: "Get up and running with SceneJS in two minutes"
 modified: 2013-05-31
 category: articles
@@ -17,7 +17,7 @@ tags: [tutorial, quickstart, plugins]
 </div>
 </section><!-- /#table-of-contents -->
 
-SceneJS is super easy to get started with, thanks to its succinct API with lots of defaults and
+SceneJS is super easy to get into, thanks to its succinct API with lots of defaults and
    training wheels. But don't let let that simplicity fool you - under that friendly facade it's optimised to death with
    serious tricks like scene compilation and GL state sorting, so it will happily scale up to thousands of
    objects. Let's get into it.
