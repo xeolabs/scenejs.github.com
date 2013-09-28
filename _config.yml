@@ -2,7 +2,7 @@ title:            SceneJS
 tagline:          On the other side of the screen, it all looks so easy
 description:      An extensible WebGL-based engine for high-detail 3D visualisation
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://your-site.com
+url:             http://xeolabs.github.io/scenejs.github.com
 
 # Owner/author information
 owner:
@@ -64,6 +64,20 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+
+comments :
+  provider : disqus
+  disqus :
+    short_name : scenejs
+  livefyre :
+    site_id : 123
+  intensedebate :
+    account : 123abc
+  facebook :
+    appid : 123
+    num_posts: 5
+    width: 580
+    colorscheme: light
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
