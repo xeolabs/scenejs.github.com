@@ -17,9 +17,10 @@ tags: [tutorial, quickstart, plugins]
 </div>
 </section><!-- /#table-of-contents -->
 
-SceneJS is ridiculously easy to get started with, thanks to a succinct API with lots of defaults and
-   training wheels. But don't let let that simplicity fool you - it's optimised to death with serious tricks like scene
-    compilation and GL state sorting, so it will happily scale up to thousands of objects. Let's get into it.
+SceneJS is super easy to get started with, thanks to its succinct API with lots of defaults and
+   training wheels. But don't let let that simplicity fool you - under that friendly facade it's optimised to death with
+   serious tricks like scene compilation and GL state sorting, so it will happily scale up to thousands of
+   objects. Let's get into it.
 
 # First example
 Let's create this spinning Newell teapot:
