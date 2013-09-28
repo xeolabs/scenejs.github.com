@@ -2,7 +2,8 @@ title:            SceneJS
 tagline:          On the other side of the screen, it all looks so easy
 description:      An extensible WebGL-based engine for high-detail 3D visualisation
 #Comment out url when working locally to resolve base urls correctly
-url:             http://xeolabs.github.io/scenejs.github.com
+url:              http://xeolabs.github.io/scenejs.github.com
+baseurl:          /scenejs.github.com
 
 # Owner/author information
 owner:
