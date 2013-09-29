@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Physics
+title: SceneJS Physics
 description: "Plugins for multithreaded rigid-body dynamics"
 tagline: "Plugins for multithreaded rigid-body dynamics"
 modified: 2013-05-31
 category: articles
-tags: [tutorial, physics, plugins]
+tags: [scenejs, tutorial, physics, plugins]
 ---
 
 <section id="table-of-contents" class="toc">

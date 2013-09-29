@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Quick Start
+title: SceneJS Quick Start
 description: "Get up and running with SceneJS in two minutes"
 modified: 2013-05-31
 category: articles
-tags: [tutorial, quickstart, plugins]
+tags: [scenejs, tutorial]
 ---
 
 <section id="table-of-contents" class="toc">
@@ -18,7 +18,7 @@ tags: [tutorial, quickstart, plugins]
 </section><!-- /#table-of-contents -->
 
 SceneJS is super easy to get into, thanks to its succinct API with lots of defaults and
-   training wheels. But don't let let that simplicity fool you - under that friendly facade it's optimised to death with
+   training wheels. But don't let let that simplicity fool you - under that friendly facade it's **optimised to death** with
    serious tricks like scene compilation and GL state sorting, so it will happily scale up to thousands of
    objects. Let's get into it.
 
@@ -28,10 +28,10 @@ Let's create this spinning Newell teapot:
 
 [![SceneJS First Example]({{ site.url }}/images/firstExample.png)](http://scenejs.org/examples.html?page=firstExample)
 
-[Click here to run this example](http://scenejs.org/examples.html?page=firstExample).
+[Click here to run this example]({{ site.url }}/examples.html?page=firstExample).
 
 ### Step 1. Link to the API
-Include the [SceneJS library](api/latest/scenejs.js) in the &lt;head&gt; tag of your web page:
+Include the [SceneJS library](http://scenejs.org/api/latest/scenejs.js) in the &lt;head&gt; tag of your web page:
 
 {% highlight html %}
 <script src="http://scenejs.org/api/latest/scenejs.js"></script>
@@ -100,5 +100,4 @@ SceneJS.setConfigs({
 });
 {% endhighlight %}
 
-Want to write your own plugins? Sweet! Please read more about the plugin API <a
- href="https://github.com/xeolabs/scenejs#plugin-api">here</a>.
+Want to write your own plugins? Sweet! Please [read more about the plugin API here]({{ site.url}}/articles/scenejs-node-types)

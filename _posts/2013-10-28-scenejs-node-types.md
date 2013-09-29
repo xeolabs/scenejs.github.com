@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Creating Node Types for SceneJS
-description: "How to create new types of scene node"
+title: Extending SceneJS - Creating new Scene Node Types
+description: "How to create your own scene graph node types"
 modified: 2013-05-31
 category: articles
-tags: [tutorial, extending, plugins]
+tags: [scenejs, tutorial, plugins]
 ---
 
 <section id="table-of-contents" class="toc">
